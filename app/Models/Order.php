@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 
-#[Fillable(['user_id', 'amount', 'status'])]
+#[Fillable(['amount', 'status'])]
 class Order extends Model
 {
     public function user()
